@@ -1,0 +1,21 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "forever": "forever -w server.js"
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.2",
+    "express": "^4.17.1",
+    "express-validator": "^6.7.0",
+    "forever": "^3.0.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.15"
+  }
+}
